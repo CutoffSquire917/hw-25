@@ -151,6 +151,7 @@ void printList(LinkedList* list);
 
 int main()
 {
+	
 	LinkedList* list = new LinkedList();
 	list->InsertAtBeginning(MyInt(3));
 	list->InsertAtBeginning(MyInt(2));
